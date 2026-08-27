@@ -322,7 +322,8 @@ main {
         background-color: #ffffff
         ;
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
+        cursor: pointer;
 
 
 
