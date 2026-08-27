@@ -397,7 +397,13 @@ footer{
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    .forte{
+    a{
         font-weight: bold;
+        text-decoration: none;
+        color: #f4f4f4;
+    }
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
     }
 }
