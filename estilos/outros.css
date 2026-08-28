@@ -17,7 +17,7 @@ main{
      #apresenta{
         grid-row: 1/2;
         grid-column: 4 / -1;
-        height: 47vw;
+        height: 50vw;
         iframe{
             margin-top: -2px;
         }
