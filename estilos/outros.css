@@ -77,6 +77,9 @@ main{
 
         .formacoes{
             width: 95%;
+            .infors{
+                width: 100%;
+            }
 
 
         }
