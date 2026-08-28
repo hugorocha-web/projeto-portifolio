@@ -67,10 +67,10 @@ body.escuro #skills #minhas-skills i{
 body.escuro #skills .skill div{
     color: #ffffff;
 }
-body.escuro #skills .skill > .porcent{
+body.escuro #skills .skill >.porcent{
     color:#FF5522
 }
-body.escuro #skills > .por{
+body.escuro #skills > div >.por{
     background-color: #FF5522;
 }
 body.escuro #formacao{
@@ -521,7 +521,6 @@ main {
 
 
         .contimg {
-            width: 70%;
             flex: 1 1 400px;
             border-radius: 9px;
             background-color: #0077FF;

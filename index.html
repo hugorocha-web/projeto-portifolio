@@ -10,7 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="arquivos/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mobilefirts.css">
-    <link rel="stylesheet" href="estilos/outros.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/outros.css" media="screen and (min-width: 791px)">
 </head>
 
 <body>
@@ -72,73 +72,86 @@
                 <i class="fa-solid fa-brain"></i>
                 <h2>Minhas skills</h2>
             </div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-code" aria-hidden="true"></i>
-                    <p>HTML5</p>
+            <div class="box1">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <p class="porcent">90%</p>
                 </div>
-                <p class="porcent">90%</p>
+                <div class="por" id="i90"></div>
             </div>
-            <div class="por" id="i90"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-code" aria-hidden="true"></i>
-                    <p>CSS3</p>
-
+            <div class="box2">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <p class="porcent">80%</p>
                 </div>
-                <p class="porcent">80%</p>
+                <div class="por" id="i80"></div>
             </div>
-            <div class="por" id="i80"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-code" aria-hidden="true"></i>
-                    <p>JavaScript</p>
-
+            <div class="box3">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <p class="porcent">75%</p>
                 </div>
-                <p class="porcent">75%</p>
+                <div class="por" id="i75"></div>
             </div>
-            <div class="por" id="i75"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-code" aria-hidden="true"></i>
-                    <p>PHP</p>
-
+            <div class="box4">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <p>PHP</p>
+                    </div>
+                    <p class="porcent">60%</p>
                 </div>
-                <p class="porcent">60%</p>
+                <div class="por" id="i60"></div>
             </div>
-            <div class="por" id="i60"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
-                    <p>Comunicação</p>
+            <div class="box5">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
+                        <p>Comunicação</p>
+                    </div>
+                    <p class="porcent">100%</p>
                 </div>
-                <p class="porcent">100%</p>
+                <div class="por" id="i100"></div>
             </div>
-            <div class="por" id="i100"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
-                    <p>Trabalho em equipe</p>
+            <div class="box6">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
+                        <p>Trabalho em equipe</p>
+                    </div>
+                    <p class="porcent">90%</p>
                 </div>
-                <p class="porcent">90%</p>
+                <div class="por" id="i90"></div>
             </div>
-            <div class="por" id="i90"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
-                    <p>Adaptabilidade</p>
+            <div class="box7">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
+                        <p>Adaptabilidade</p>
+                    </div>
+                    <p class="porcent">85%</p>
                 </div>
-                <p class="porcent">85%</p>
+                <div class="por" id="i85"></div>
             </div>
-            <div class="por" id="i85"></div>
-            <div class="skill">
-                <div>
-                    <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
-                    <p> Liderança</p>
+            <div class="box8">
+                <div class="skill">
+                    <div>
+                        <i class="fa-solid fa-person-rays" aria-hidden="true"></i>
+                        <p> Liderança</p>
+                    </div>
+                    <p class="porcent">80%</p>
                 </div>
-                <p class="porcent">80%</p>
+                <div class="por" id="i80"></div>
             </div>
-            <div class="por" id="i80"></div>
         </section>
         <section id="formacao">
             <div id="form">
@@ -197,91 +210,97 @@
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-06-album.jpg" alt="">
-                    <p>2025</p>
-                    <p class="pgrande">Projeto Álbum de Fotos</p>
-                    <p>Projeto construído para treinar conteúdos flexíveis usando CSS FlexBox para mostrar um álbum de fotos.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                            Mostrar fotos de tamanhos diferentes em uma mesma tela pode ser um grande desafio de design, mas também pode ser uma grande oportunidade para treinar nossos conhecimentos adquiridos sobre flexbox e criar uma maneira discreta e de bom-gosto para apresentar nossas memórias em forma de imagens..
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2025</p>
+                        <p class="pgrande">Projeto Álbum de Fotos</p>
+                        <p>Projeto construído para treinar conteúdos flexíveis usando CSS FlexBox para mostrar um álbum de fotos.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                                Mostrar fotos de tamanhos diferentes em uma mesma tela pode ser um grande desafio de design, mas também pode ser uma grande oportunidade para treinar nossos conhecimentos adquiridos sobre flexbox e criar uma maneira discreta e de bom-gosto para apresentar nossas memórias em forma de imagens..
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-05-login.jpg" alt="">
-                    <p>2024</p>
-                    <p class="pgrande">Projeto Login</p>
-                    <p>Projeto construído para treinar responsividade e formulários em uma das telas mais populares em sistemas.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                            Criar uma tela de login é algo muito comum na vida de quem vai construir sites. Mas essa tela de login deve conter componentes bonitos e com funcionalidades bem definidas e intuitivas de usar. Essa tela de login vai adaptando seus conteúdos usando caixas flexíveis (flexbox) para funcionar em qualquer tamanho de tela.
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2024</p>
+                        <p class="pgrande">Projeto Login</p>
+                        <p>Projeto construído para treinar responsividade e formulários em uma das telas mais populares em sistemas.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                                Criar uma tela de login é algo muito comum na vida de quem vai construir sites. Mas essa tela de login deve conter componentes bonitos e com funcionalidades bem definidas e intuitivas de usar. Essa tela de login vai adaptando seus conteúdos usando caixas flexíveis (flexbox) para funcionar em qualquer tamanho de tela.
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-04-links.jpg" alt="">
-                    <p>2024</p>
-                    <p class="pgrande">Projeto Redes Sociais</p>
-                    <p>Projeto construído para treinar responsividade e múltiplos media queries e divulgar as suas principais redes sociais.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                           Um meta projeto muito interessante deixa o visitante interagir com um aparelho de smartphone que tem seu conteúdo carregado a cada vez que você clica em um ícone de redes sociais. Interatividade e responsividade para um projeto bem elaborado e que utiliza iframes na sua estrutura principal.
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2024</p>
+                        <p class="pgrande">Projeto Redes Sociais</p>
+                        <p>Projeto construído para treinar responsividade e múltiplos media queries e divulgar as suas principais redes sociais.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                               Um meta projeto muito interessante deixa o visitante interagir com um aparelho de smartphone que tem seu conteúdo carregado a cada vez que você clica em um ícone de redes sociais. Interatividade e responsividade para um projeto bem elaborado e que utiliza iframes na sua estrutura principal.
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-03-android.jpg" alt="">
-                    <p>2023</p>
-                    <p class="pgrande">Projeto Android</p>
-                    <p>Projeto construído para treinar conteúdos e imagens dinâmicas com a História do sistema Android.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                            Mostrar fotos de tamanhos diferentes em uma mesma tela pode ser um grande desafio de design, mas também pode ser uma grande oportunidade para treinar nossos conhecimentos adquiridos sobre flexbox e criar uma maneira discreta e de bom-gosto para apresentar nossas memórias em forma de imagens..
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2023</p>
+                        <p class="pgrande">Projeto Android</p>
+                        <p>Projeto construído para treinar conteúdos e imagens dinâmicas com a História do sistema Android.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                                Mostrar fotos de tamanhos diferentes em uma mesma tela pode ser um grande desafio de design, mas também pode ser uma grande oportunidade para treinar nossos conhecimentos adquiridos sobre flexbox e criar uma maneira discreta e de bom-gosto para apresentar nossas memórias em forma de imagens..
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-02-cordel.jpg" alt="">
-                    <p>2023</p>
-                    <p class="pgrande">Projeto Cordel</p>
-                    <p>Projeto construído para treinar efeito parallax em imagens e a apresentaçao de conteúdo em diversos tamanhos de tela.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                            Apresentar um conteúdo na tela de forma criativa é sempre um desafio aos desenvolvedores de sites. Nesse projeto, apresentamos um cordel de maneira bem-humorada, responsiva e usando técnicas como parallax para exibição de imagens de fundo.
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2023</p>
+                        <p class="pgrande">Projeto Cordel</p>
+                        <p>Projeto construído para treinar efeito parallax em imagens e a apresentaçao de conteúdo em diversos tamanhos de tela.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                                Apresentar um conteúdo na tela de forma criativa é sempre um desafio aos desenvolvedores de sites. Nesse projeto, apresentamos um cordel de maneira bem-humorada, responsiva e usando técnicas como parallax para exibição de imagens de fundo.
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
             <div class="contimg">
                 <div class="infors">
                     <img src="arquivos/imagens/projeto-01-videos.jpg" alt="">
-                    <p>2022</p>
-                    <p class="pgrande">Projeto de Vídeos</p>
-                    <p>Projeto construído para treinar a inserção de vídeos em nosso site, além da navegação entre páginas.</p>
-                    <details>
-                        <summary>Saiba mais...</summary>
-
-                        <p>
-                            Primeiro projeto construído no Curso de HTML5 e CSS3 do CursoemVídeo onde construímos a navegação entre páginas e a incorporação de mídias, principalmente de imagens e vídeos. Um ótimo início para quem estava em seus primeiros passos em HTML e CSS.
-                        </p>
-                    </details>
+                    <div class="flex">
+                        <p>2022</p>
+                        <p class="pgrande">Projeto de Vídeos</p>
+                        <p>Projeto construído para treinar a inserção de vídeos em nosso site, além da navegação entre páginas.</p>
+                        <details>
+                            <summary>Saiba mais...</summary>
+                            <p>
+                                Primeiro projeto construído no Curso de HTML5 e CSS3 do CursoemVídeo onde construímos a navegação entre páginas e a incorporação de mídias, principalmente de imagens e vídeos. Um ótimo início para quem estava em seus primeiros passos em HTML e CSS.
+                            </p>
+                        </details>
+                    </div>
                 </div>
             </div>
         </section>
