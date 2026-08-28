@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    transition-duration: 0.6s;
 }
 
 html {
@@ -264,6 +265,7 @@ main {
         background-color: #ffffff;
         padding: 15px;
         border-radius: 10px;
+        
 
 
         #video {
