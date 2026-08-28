@@ -90,7 +90,10 @@ body.escuro #formacao .formacoes:hover{
 body.escuro #formacao .formacoes .infors{
     background-color: #161616;
 }
-body.escuro #formacao .formacoes .infors .pqueno, .pnormal{
+body.escuro #formacao .formacoes .infors .pqueno{
+    color: #ffffff;
+}
+body.escuro #formacao .formacoes .infors .pnormal{
     color: #ffffff;
 }
 body.escuro #formacao .formacoes .infors .pgrande{
@@ -458,6 +461,7 @@ main {
                     margin-left: 10px;
                     margin-top: 3px;
                     min-width: 400px;
+                    color: #000000;
                 }
 
             }
